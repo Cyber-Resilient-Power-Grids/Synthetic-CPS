@@ -21,4 +21,4 @@ To run the requirement.txt, use the following command: pip install -r requiremen
 # Large-Scale Synthetic CPPS for Continental Europe
 ![Large-Scale Synthetic CPPS for Continental Europe](03_Generated_Models/Generated_results_visualized.png)
 
-# If you use our models in a scientific work, consider citing the following papers:
+
