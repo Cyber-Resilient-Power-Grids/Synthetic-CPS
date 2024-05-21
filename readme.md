@@ -13,8 +13,8 @@ Synthetic networks aim at generating realistic projections of real-world network
 To run the requirement.txt, use the following command: pip install -r requirements.txt
 
 # How to Run
-* In 01_Input_Data, we provide the power grids topology of . The data is collected from the ENTSO-E website. (https://www.entsoe.eu/data/map/)
-* In 02_Code, we provide the code of our generative model. To run the model, one should first run split.py to preprocess the data in folder Example. Then run the Generator.py.
+* In 01_Input_Data, we provide the power grids topology of continental Europe. The data is collected from the ENTSO-E website. (https://www.entsoe.eu/data/map/)
+* In 02_Code, we provide the code of our generative model. To run the model, one should first run split.py to preprocess the data in folder Example. Then run the Generator.py. Note that this process is only for one country, if you want to generate the synthetic network for Europe, you should run these two code for each country separately.
 * In 03_Generated_Models, we provide our generation results for European continental power grids.
 
 
