@@ -2,7 +2,7 @@ import pandas as pd
 
 # loading excel file
 file_path = 'Example/Example.xlsx'  # replace it with your path
-data = pd.read_excel(file_path)
+data = pd.read_excel(file_path, header=None)
 
 # DataFrame split function
 def split_dataframe(df):
